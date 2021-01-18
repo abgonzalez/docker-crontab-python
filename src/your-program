@@ -1,0 +1,6 @@
+#!/bin/sh
+# disable the wildcard '*' extension
+set -o noglob
+python deliveroo.py $1
+# activate the wildcard '*' extension
+set +o noglob
